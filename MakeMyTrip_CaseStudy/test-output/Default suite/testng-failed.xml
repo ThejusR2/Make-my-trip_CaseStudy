@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test" verbose="2">
+    <classes>
+      <class name="mmt_casestudy.Make_my_trip"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="mmt_casestudy.Make_my_trip">
+        <methods>
+          <include name="tc9"/>
+          <include name="tc8"/>
+          <include name="tc7"/>
+          <include name="tc6"/>
+          <include name="tc5"/>
+          <include name="tc4"/>
+          <include name="tc3"/>
+          <include name="tc2"/>
+          <include name="tc1"/>
+        </methods>
+      </class> <!-- mmt_casestudy.Make_my_trip -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
